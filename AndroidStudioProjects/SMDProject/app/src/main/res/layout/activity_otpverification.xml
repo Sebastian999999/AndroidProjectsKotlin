@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="@color/skyblue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPVerification">
+    <ImageView
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/smartcartlogo"
+        android:id="@+id/smartcartlogo"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="OTP Verification"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Enter the verification code we just sent on your email address."
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/verifycodeinputfields"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:weightSum="4"
+
+        >
+        <Button
+            android:background="@drawable/socialmediasigninupbuttons"
+            android:layout_width="0dp"
+            android:paddingStart="25dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="15dp"/>
+        <Button
+            android:background="@drawable/socialmediasigninupbuttons"
+            android:layout_width="0dp"
+            android:paddingStart="25dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="15dp"/>
+        <Button
+            android:background="@drawable/socialmediasigninupbuttons"
+            android:layout_width="0dp"
+            android:paddingStart="25dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="15dp"
+            />
+
+        <Button
+            android:background="@drawable/socialmediasigninupbuttons"
+            android:layout_width="0dp"
+            android:paddingStart="25dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/verifybtn"
+        android:layout_marginTop="40dp"
+        android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textColor="@color/skyblue"
+        android:backgroundTint="@color/white"
+        android:text="Verify"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_marginBottom="20dp"
+        >
+        <TextView
+            android:id="@+id/notreceivingcodetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Didn’t received code?"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/ResendCodeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Resend"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/notreceivingcodetext"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+</LinearLayout>

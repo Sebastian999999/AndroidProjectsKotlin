@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "996527043182",
+    "project_id": "emailloginrecyclerview",
+    "storage_bucket": "emailloginrecyclerview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996527043182:android:c92564083f6a5c341bac7f",
+        "android_client_info": {
+          "package_name": "com.hammadirfan.emailloginrecyclerview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAIB9gAlMKat5CSRhdJ6LKHquIGQtGkjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

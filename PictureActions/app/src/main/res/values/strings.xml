@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PictureActions</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mirror">Mirror</string>
+    <string name="rotate">Rotate</string>
+    <string name="correction">Correction</string>
+    <string name="edit">Edit</string>
+    <string name="next">Next</string>
+    <string name="adjust">Adjust</string>
+</resources>

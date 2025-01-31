@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:cntext=".PicFragment"
+    >
+    <ImageView
+        android:id="@+id/ivimage"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:id="@+id/tvmycountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivimage"
+        android:textSize="16sp"
+        android:text="Your Country"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btnimage"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/rotation_slider"
+        app:layout_constraintTop_toBottomOf="@id/tvmycountry"
+        android:layout_marginTop="6dp"
+        android:padding="7dp"
+        android:textSize="17sp"
+        android:text="Algeria: Visa 35*45mm"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    <LinearLayout
+        android:id="@+id/rotation_slider"
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomnavview"
+        >
+        <com.example.pictureactions.CustomSlider
+            android:id="@+id/slider"
+            android:foregroundGravity="fill_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:trackColor="@color/gray_primary_color"
+            android:valueFrom="-45"
+            android:valueTo="45"
+            android:value="0" />
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/bottom_nav"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

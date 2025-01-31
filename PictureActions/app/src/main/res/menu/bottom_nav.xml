@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/edit_icon"
+        android:title="Edit"
+        android:icon="@drawable/adjust_edit_icon"/>
+    <item
+        android:id="@+id/mirror_icon"
+        android:title="Mirror"
+        android:icon="@drawable/adjust_mirror_icon"/>
+    <item
+        android:id="@+id/rotate_icon"
+        android:title="Rotate"
+        android:icon="@drawable/adjust_rotate_icon"/>
+    <item
+        android:id="@+id/correction_icon"
+        android:title="Correction"
+        android:icon="@drawable/adjust_correction_icon"/>
+</menu>

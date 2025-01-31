@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProductFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editTextProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name" />
+
+        <EditText
+            android:id="@+id/editTextProductDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Description"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/editTextProductPrice"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal" />
+
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:gravity="center"
+            android:id="@+id/editTextProductQuantity"
+            android:layout_gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextProductBarcode"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Barcode"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Image"
+            android:id="@+id/buttonChooseImage"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/buttonAddProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Product"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
