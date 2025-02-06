@@ -46,6 +46,7 @@ dependencies {
     implementation ("androidx.media3:media3-exoplayer-dash:1.2.1")
     implementation ("androidx.media3:media3-exoplayer-hls:1.2.1")
     implementation ("androidx.media3:media3-exoplayer-rtsp:1.2.1")
+    implementation(libs.firebase.crashlytics.buildtools)
     val nav_version = "2.8.6"
 
     // Jetpack Compose integration
@@ -60,7 +61,7 @@ dependencies {
 
     // Testing Navigation
     androidTestImplementation("androidx.navigation:navigation-testing:$nav_version")
-
+    implementation("org.jsoup:jsoup:1.15.3")
     // JSON serialization library, works with the Kotlin serialization plugin
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
     implementation(libs.androidx.core.ktx)
