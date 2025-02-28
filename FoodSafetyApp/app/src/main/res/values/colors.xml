@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="unsafe_red">#B40707</color>
+    <color name="safe_green">#69AB1C</color>
+    <color name="safety_yellow">#FFEB3B</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Alert severity colors -->
+    <color name="safetyRed">#F44336</color>
+    <color name="safetyYellow">#FFC107</color>
+    <color name="safetyGreen">#4CAF50</color>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".InAppPremiumBannerFragment1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/clbackgroundfragmentinapppremiumbanner1"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/mivbackgroundinappbanner1"
+            android:background="@mipmap/background_premium_banner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/mtvwelcome"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="10dp"
+            android:textSize="40sp"
+            android:textFontWeight="700"
+
+            android:text="Welcome!"
+            android:textAllCaps="true"
+            android:gravity="center_vertical|center"
+            android:textAlignment="gravity"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@id/mtvdescription"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/mtvdescription"
+            android:layout_width="316dp"
+            android:layout_height="57dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:lines="3"
+            android:layout_marginBottom="10dp"
+            android:lineHeight="19dp"
+            android:textSize="13sp"
+            android:text="Play online songs, enjoy local tracks, and watch
+videos—all seamlessly in one app for your
+ultimate entertainment!"
+            android:gravity="center"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@id/mtvgetstarted"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="324dp"
+            android:layout_height="60dp"
+            android:id="@+id/mtvgetstarted"
+            android:drawableRight="@drawable/forwardicon"
+            android:gravity="center_vertical"
+            android:text="Get Started"
+            android:textSize="18sp"
+            android:textFontWeight="600"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:backgroundTint="@color/color_primary_blue"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

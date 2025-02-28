@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">FoodSafetyApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_name">Food Name:</string>
+    <string name="nutritional_value_calories_sugar_fats_etc">Nutritional Value (calories, sugar, fats, etc.):</string>
+    <string name="potential_allergens_e_g_gluten_nuts">Potential Allergens (e.g., gluten, nuts):</string>
+    <string name="food_freshness">Food Freshness:</string>
+    <string name="spoilage_alert">Spoilage Alert:</string>
+    <string name="name_john_doe">Name: John Doe</string>
+    <string name="age_30">Age: 30</string>
+    <string name="dietary_preferences_vegan">Dietary Preferences: Vegan</string>
+    <string name="allergies_none">Allergies: None</string>
+    <string name="settings">Settings</string>
+    <string name="english">English</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="real_time_push_notifications_will_appear_here_for_critical_issues">Real-time push notifications will appear here for critical issues.</string>
+    <string name="home">Home</string>
+    <string name="analysis">Analysis</string>
+    <string name="history">History</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="profile">Profile</string>
+    <string name="alerts">Alerts</string>
+    <string name="food_image">Food Image</string>
+    <string name="recent_scans_5_scans_today">Recent Scans: 5 scans today</string>
+    <string name="alerts_2_alerts_detected">Alerts: 2 alerts detected</string>
+    <string name="safe_food_tips_store_dairy_below_5_c">Safe Food Tips: Store dairy below 5°C</string>
+    <string name="scan_food">Scan Food</string>
+    <string name="result">Result</string>
+    <string name="log_out">Log out</string>
+    <string name="storage_tips">Storage Tips</string>
+    <string name="safe_cooking_methods">Safe Cooking Methods</string>
+    <string name="safety_warnings">Safety Warnings</string>
+    <string name="take_food_safety_quiz">Take Food Safety Quiz</string>
+    <string name="important_safety_warnings">Important Safety Warnings</string>
+    <string-array name="language_options">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <!-- Add more languages as needed -->
+    </string-array>
+
+    <string-array name="notification_options">
+        <item>All Notifications</item>
+        <item>Critical Only</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="data_sharing_options">
+        <item>Share with Doctors</item>
+        <item>Share with Dietitians</item>
+        <item>Do Not Share</item>
+    </string-array>
+</resources>

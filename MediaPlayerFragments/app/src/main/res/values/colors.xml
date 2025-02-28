@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black_secondary">#0E1C28</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_primary_gray">#6B6B6B</color>
+    <color name="color_secondary_gray">#C9C9C9</color>
+    <color name="color_tertiary_gray">#6C6C6C</color>
+    <color name="color_primary_blue">#0088FF</color>
+    <color name="color_secondary_blue">#1766FF</color>
+    <color name="color_primary_dark_gray">#535353</color>
+    <color name="color_black_tertiary">#152A3D</color>
+    <color name = "color_gray_primary_2">#666668</color>
+    <color name = "color_black_secondary">#333333</color>
+    <color name = "color_gray_secondary_2">#606060</color>
+    <color name = "color_primary_green">#01865E</color>
+</resources>

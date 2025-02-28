@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/resultsFragmentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"
+        />
+    <!-- Main content area in a ScrollView -->
+    <ScrollView
+        android:id="@+id/scrollViewResults"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Food Image and Details -->
+            <ImageView
+                android:id="@+id/ivFoodImage"
+                android:layout_width ="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_foreground"
+                android:contentDescription="@string/food_image" />
+
+            <TextView
+                android:id="@+id/tvFoodName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food Name"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- Safety Indicator: e.g., using color-coding -->
+            <TextView
+                android:id="@+id/tvSafetyIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Safe to Eat"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:background="@android:color/holo_green_light"
+                android:layout_marginTop="8dp" />
+
+            <!-- Detailed Analysis -->
+            <TextView
+                android:id="@+id/tvNutritionalInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nutritional Info: calories, sugar, fats, etc."
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/tvFreshnessScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Freshness: Fresh"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tvAllergenAlerts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Allergen Alerts: None"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tvIssues"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Issues Found: None"
+                android:layout_marginTop="8dp" />
+
+            <!-- Recommendations -->
+            <TextView
+                android:id="@+id/tvSafetyRecommendations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recommendations: Store in a cool place, use airtight containers, etc."
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Button container for Save and Share actions -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

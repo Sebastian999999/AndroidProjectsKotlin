@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/internal_nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.foodsafetyapp.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login"
+        >
+        <action
+            android:id="@+id/action_global_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/internal_nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.foodsafetyapp.SignupFragment"
+        android:label="Sign Up"
+        tools:layout="@layout/fragment_signup"
+        >
+        <action
+            android:id="@+id/action_signupFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_signupFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <!-- Home Fragment: Displays Daily Insights and Quick Access Buttons -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.foodsafetyapp.HomeFragment"
+        android:label="Home"
+        app:route="@layout/fragment_home"
+        >
+        <!-- Quick Access Actions from Home Fragment -->
+        <action
+            android:id="@+id/action_homeFragment_to_foodAnalysisFragment"
+            app:destination="@id/foodAnalysisFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_alertsFragment"
+            app:destination="@id/alertsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_recommendationsFragment"
+            app:destination="@id/recommendationsFragment" />
+    </fragment>
+
+    <!-- Food Analysis Flow -->
+    <fragment
+        android:id="@+id/foodAnalysisFragment"
+        android:name="com.example.foodsafetyapp.FoodAnalysisFragment"
+        android:label="Food Analysis"
+        app:route="@layout/fragment_food_analysis"
+        >
+        <!-- Navigate to Results when analysis is successful -->
+        <action
+            android:id="@+id/action_foodAnalysisFragment_to_resultsFragment"
+            app:destination="@id/resultsFragment" />
+        <action
+            android:id="@+id/action_foodAnalysisFragment_to_scanImageFragment"
+            app:destination="@id/scanImageFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.foodsafetyapp.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history"
+        >
+        <action
+            android:id="@+id/action_historyFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.example.foodsafetyapp.UserProfileFragment"
+        android:label="User Profile"
+        tools:layout="@layout/fragment_user_profile"
+        />
+    <fragment
+        android:id="@+id/scanImageFragment"
+        android:name="com.example.foodsafetyapp.ScanImageFragment"
+        android:label="Scan Image"
+        tools:layout="@layout/fragment_scan_image"
+        />
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.example.foodsafetyapp.ResultsFragment"
+        android:label="Results"
+        tools:layout="@layout/fragment_results_page">
+
+        <argument
+            android:name="foodName"
+            app:argType="string" />
+        <argument
+            android:name="isSafe"
+            app:argType="boolean" />
+
+        <argument
+            android:name="storageTemp"
+            app:argType="string" />
+        <argument
+            android:name="storageMethod"
+            app:argType="string" />
+        <argument
+            android:name="handlingTips"
+            app:argType="string[]" />
+        <argument
+            android:name="shelfLife"
+            app:argType="string" />
+        <argument
+            android:name="safetyWarnings"
+            app:argType="string[]" />
+        <argument
+            android:name="allergens"
+            app:argType="string[]" />
+        <argument
+            android:name="calories"
+            app:argType="float" />
+        <argument
+            android:name="protein"
+            app:argType="float" />
+        <argument
+            android:name="carbs"
+            app:argType="float" />
+        <argument
+            android:name="fat"
+            app:argType="float" />
+        <argument
+            android:name="confidence"
+            app:argType="float" />
+        <argument
+            android:name="freshnessScore"
+            app:argType="integer" />
+        <argument
+            android:name="spoilageDetails"
+            app:argType="string[]" />
+        <argument
+            android:name="recommendedAction"
+            app:argType="string" />
+
+    </fragment>
+    <!-- Add this within your navigation graph -->
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.foodsafetyapp.QuizFragment"
+        android:label="Food Safety Quiz"
+        tools:layout="@layout/fragment_quiz" />
+    <!-- Alerts Flow (internal flow if accessed via quick access) -->
+    <fragment
+        android:id="@+id/alertsFragment"
+        android:name="com.example.foodsafetyapp.AlertsFragment"
+        android:label="Alerts"
+        tools:layout="@layout/fragment_alerts"
+        />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.foodsafetyapp.DetailFragment"
+        android:label="Food Details">
+
+        <argument
+            android:name="foodName"
+            app:argType="string" />
+        <argument
+            android:name="confidence"
+            app:argType="float" />
+        <argument
+            android:name="calories"
+            app:argType="float" />
+        <argument
+            android:name="protein"
+            app:argType="float" />
+        <argument
+            android:name="carbs"
+            app:argType="float" />
+        <argument
+            android:name="fat"
+            app:argType="float" />
+        <argument
+            android:name="isSafe"
+            app:argType="boolean" />
+        <argument
+            android:name="freshnessScore"
+            app:argType="integer" />
+        <argument
+            android:name="spoilageDetails"
+            app:argType="string[]" />
+        <argument
+            android:name="allergens"
+            app:argType="string[]" />
+        <argument
+            android:name="storageTemp"
+            app:argType="string" />
+        <argument
+            android:name="storageMethod"
+            app:argType="string" />
+        <argument
+            android:name="handlingTips"
+            app:argType="string[]" />
+        <argument
+            android:name="shelfLife"
+            app:argType="string" />
+        <argument
+            android:name="safetyWarnings"
+            app:argType="string[]" />
+        <argument
+            android:name="recommendedAction"
+            app:argType="string" />
+
+        <argument
+            android:name="imageByteArray"
+            app:argType="integer[]" />
+    </fragment>
+    <!-- Recommendations Flow -->
+    <fragment
+        android:id="@+id/recommendationsFragment"
+        android:name="com.example.foodsafetyapp.RecommendationsFragment"
+        android:label="Recommendations"
+        tools:layout="@layout/fragment_recommendations"
+        >
+        <action
+            android:id="@+id/action_recommendationsFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+        <!-- Navigate to Tips Page when a tip is selected -->
+<!--        <action-->
+<!--            android:id="@+id/action_recommendationsFragment_to_tipsFragment"-->
+<!--            app:destination="@id/tipsFragment" />-->
+<!--        &lt;!&ndash; Navigate to Quiz Page when the quiz button is tapped &ndash;&gt;-->
+<!--        <action-->
+<!--            android:id="@+id/action_recommendationsFragment_to_quizFragment"-->
+<!--            app:destination="@id/quizFragment" />-->
+    </fragment>
+
+    <!--    <fragment-->
+<!--        android:id="@+id/tipsFragment"-->
+<!--        android:name="com.example.foodsafetyapp.TipsFragment"-->
+<!--        android:label="Tips" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/quizFragment"-->
+<!--        android:name="com.example.foodsafetyapp.QuizFragment"-->
+<!--        android:label="Quiz">-->
+<!--        &lt;!&ndash; Navigate to Quiz Results upon quiz completion &ndash;&gt;-->
+<!--        <action-->
+<!--            android:id="@+id/action_quizFragment_to_quizResultFragment"-->
+<!--            app:destination="@id/quizResultFragment" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/quizResultFragment"-->
+<!--        android:name="com.example.foodsafetyapp.QuizResultFragment"-->
+<!--        android:label="Quiz Results" />-->
+
+</navigation>

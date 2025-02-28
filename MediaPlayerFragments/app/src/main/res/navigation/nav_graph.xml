@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/InAppPremiumBannerFragment1"
+    android:id="@+id/nav_graph">
+
+   <fragment
+       android:id="@+id/InAppPremiumBannerFragment1"
+       android:name="com.example.mediaplayerfragments.InAppPremiumBannerFragment1"
+       android:label="InAppPremiumBannerFragment1"
+       tools:layout="@layout/fragment_in_app_premium_banner1"
+       >
+      <action
+          android:id="@+id/action_InAppPremiumBannerFragment1_to_OBFragment"
+          app:destination="@id/OBFragment" />
+   </fragment>
+
+   <fragment
+       android:id="@+id/OBFragment"
+       android:name="com.example.mediaplayerfragments.OBFragment"
+       android:label="OBFragment"
+       tools:layout="@layout/fragment_o_b"
+       >
+
+
+
+      <action
+          android:id="@+id/action_OBFragment_to_InAppPremiumBannerFragment2"
+          app:destination="@id/InAppPremiumBannerFragment2" />
+      <action
+          android:id="@+id/action_OBFragment_to_InAppPremiumBannerFragment1"
+          app:destination="@id/InAppPremiumBannerFragment1" />
+   </fragment>
+
+   <fragment
+       android:id="@+id/InAppPremiumBannerFragment2"
+       android:name="com.example.mediaplayerfragments.InAppPremiumBannerFragment2"
+       android:label="InAppPremiumBannerFragment2"
+       tools:layout="@layout/fragment_in_app_premium_banner2"
+       >
+
+      <action
+          android:id="@+id/action_InAppPremiumBannerFragment2_to_OBFragment"
+          app:destination="@id/OBFragment" />
+   </fragment>
+</navigation>

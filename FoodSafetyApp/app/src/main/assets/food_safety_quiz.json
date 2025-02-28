@@ -1,0 +1,1204 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the 'Temperature Danger Zone' for food safety?",
+      "options": [
+        "32°F to 70°F (0°C to 21°C)",
+        "40°F to 140°F (4°C to 60°C)",
+        "50°F to 150°F (10°C to 66°C)",
+        "60°F to 160°F (16°C to 71°C)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Temperature Danger Zone is between 40°F and 140°F (4°C to 60°C), where bacteria multiply rapidly."
+    },
+    {
+      "id": 2,
+      "question": "How long can perishable food be left at room temperature before it becomes unsafe?",
+      "options": [
+        "30 minutes",
+        "1 hour",
+        "2 hours",
+        "4 hours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Perishable food should not be left at room temperature for more than 2 hours (1 hour if the temperature is above 90°F/32°C)."
+    },
+    {
+      "id": 3,
+      "question": "What is the minimum safe internal temperature for cooking ground beef?",
+      "options": [
+        "145°F (63°C)",
+        "155°F (68°C)",
+        "160°F (71°C)",
+        "165°F (74°C)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ground beef should be cooked to a minimum internal temperature of 160°F (71°C) to kill harmful bacteria."
+    },
+    {
+      "id": 4,
+      "question": "Which food is MOST likely to contain Salmonella?",
+      "options": [
+        "Raw eggs",
+        "Canned vegetables",
+        "Pasteurized milk",
+        "Cooked rice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raw eggs are most likely to contain Salmonella, which is why cooking eggs thoroughly is important."
+    },
+    {
+      "id": 5,
+      "question": "What is the safest way to thaw frozen meat?",
+      "options": [
+        "On the counter at room temperature",
+        "Under running warm water",
+        "In the refrigerator",
+        "In a microwave on high power"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thawing in the refrigerator is safest as it keeps the food at a safe temperature throughout the thawing process."
+    },
+    {
+      "id": 6,
+      "question": "How should you clean a cutting board after cutting raw chicken?",
+      "options": [
+        "Wipe with a dry cloth",
+        "Rinse with cold water",
+        "Wash with hot, soapy water",
+        "Wash with hot, soapy water and sanitize with bleach solution"
+      ],
+      "correctAnswer": 3,
+      "explanation": "After cutting raw chicken, cutting boards should be washed with hot, soapy water and then sanitized with a bleach solution."
+    },
+    {
+      "id": 7,
+      "question": "What is the safe minimum internal temperature for cooking poultry?",
+      "options": [
+        "145°F (63°C)",
+        "155°F (68°C)",
+        "160°F (71°C)",
+        "165°F (74°C)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Poultry should be cooked to a minimum internal temperature of 165°F (74°C) to ensure safety."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is NOT one of the four core food safety principles?",
+      "options": [
+        "Clean",
+        "Separate",
+        "Recycle",
+        "Cook"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The four core food safety principles are Clean, Separate, Cook, and Chill. Recycle is not one of them."
+    },
+    {
+      "id": 9,
+      "question": "How long is it safe to keep raw fish in the refrigerator before cooking?",
+      "options": [
+        "1-2 days",
+        "3-4 days",
+        "5-7 days",
+        "1-2 weeks"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raw fish should be cooked within 1-2 days of purchase for safety and quality."
+    },
+    {
+      "id": 10,
+      "question": "Which of these foods is considered a high-risk food for bacterial growth?",
+      "options": [
+        "Dry pasta",
+        "Cooked rice",
+        "Raw vegetables",
+        "Canned soup"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cooked rice is considered high-risk as it can harbor Bacillus cereus, which produces toxins that can survive cooking."
+    },
+    {
+      "id": 11,
+      "question": "What is the proper way to wash your hands for food safety?",
+      "options": [
+        "Use hand sanitizer for 5 seconds",
+        "Rinse with cold water for 10 seconds",
+        "Wash with soap and warm water for at least 20 seconds",
+        "Wipe hands on a clean towel"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Proper handwashing involves using soap and warm water for at least 20 seconds, followed by thorough drying."
+    },
+    {
+      "id": 12,
+      "question": "What is the appropriate refrigerator temperature for food safety?",
+      "options": [
+        "50°F (10°C) or below",
+        "45°F (7°C) or below",
+        "40°F (4°C) or below",
+        "35°F (2°C) or below"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Refrigerators should be kept at 40°F (4°C) or below to slow bacterial growth and maintain food safety."
+    },
+    {
+      "id": 13,
+      "question": "Which pathogen is commonly associated with unpasteurized dairy products?",
+      "options": [
+        "Salmonella",
+        "Listeria monocytogenes",
+        "Clostridium botulinum",
+        "Vibrio vulnificus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Listeria monocytogenes is commonly found in unpasteurized dairy products and can cause serious illness."
+    },
+    {
+      "id": 14,
+      "question": "What is the minimum safe internal temperature for cooking pork?",
+      "options": [
+        "145°F (63°C) with a 3-minute rest",
+        "155°F (68°C)",
+        "160°F (71°C)",
+        "165°F (74°C)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pork should be cooked to a minimum internal temperature of 145°F (63°C) with a 3-minute rest time."
+    },
+    {
+      "id": 15,
+      "question": "What is the best way to cool a large pot of hot soup for refrigeration?",
+      "options": [
+        "Place the hot pot directly in the refrigerator",
+        "Leave it out until it reaches room temperature",
+        "Divide into smaller containers and use an ice bath",
+        "Cover with a tight lid and set aside for a few hours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dividing hot food into smaller containers and using an ice bath helps cool it rapidly, reducing time in the temperature danger zone."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following should NOT be frozen for safety reasons?",
+      "options": [
+        "Raw chicken",
+        "Eggs in shells",
+        "Ground beef",
+        "Cooked pasta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eggs in shells should not be frozen as they can crack due to expansion, allowing bacteria to enter."
+    },
+    {
+      "id": 17,
+      "question": "What is the maximum time perishable foods should be in the temperature danger zone during preparation?",
+      "options": [
+        "30 minutes",
+        "1 hour",
+        "2 hours",
+        "4 hours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To ensure safety, perishable foods should not be in the temperature danger zone for more than 2 hours total."
+    },
+    {
+      "id": 18,
+      "question": "Which food safety practice helps prevent cross-contamination?",
+      "options": [
+        "Using the same cutting board for meat and vegetables",
+        "Washing hands after handling raw meat",
+        "Thawing meat on the counter",
+        "Storing cooked foods below raw foods in the refrigerator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Washing hands after handling raw meat helps prevent transferring bacteria to other surfaces or foods."
+    },
+    {
+      "id": 19,
+      "question": "How should you check if food is cooked to a safe temperature?",
+      "options": [
+        "Cut it open and check the color",
+        "Taste a small piece",
+        "Use a food thermometer",
+        "Check the cooking time"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A food thermometer is the only reliable way to determine if food has reached a safe internal temperature."
+    },
+    {
+      "id": 20,
+      "question": "What is the safe minimum internal temperature for cooking eggs?",
+      "options": [
+        "145°F (63°C)",
+        "155°F (68°C)",
+        "160°F (71°C)",
+        "165°F (74°C)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Eggs should be cooked until both the white and yolk are firm, reaching a minimum temperature of 160°F (71°C)."
+    },
+    {
+      "id": 21,
+      "question": "How long can cooked leftovers be safely stored in the refrigerator?",
+      "options": [
+        "1-2 days",
+        "3-4 days",
+        "5-7 days",
+        "1-2 weeks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cooked leftovers can generally be safely stored in the refrigerator for 3-4 days."
+    },
+    {
+      "id": 22,
+      "question": "Which food is LEAST likely to cause foodborne illness?",
+      "options": [
+        "Raw sprouts",
+        "Dried pasta",
+        "Raw oysters",
+        "Soft cheeses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dried pasta has very low moisture content, making it difficult for bacteria to grow, thus it's least likely to cause foodborne illness."
+    },
+    {
+      "id": 23,
+      "question": "What does the 'use-by' date on food packaging indicate?",
+      "options": [
+        "The last date the food will taste its best",
+        "The last date the food is safe to consume",
+        "The date the food was packaged",
+        "The date the food first arrived at the store"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'use-by' date indicates the last date the manufacturer recommends consuming the product for safety reasons."
+    },
+    {
+      "id": 24,
+      "question": "Which is NOT a sign of food spoilage?",
+      "options": [
+        "Unusual odor",
+        "Change in color",
+        "Freezer burn",
+        "Slime formation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Freezer burn doesn't indicate spoilage; it's a quality issue caused by moisture loss but doesn't make food unsafe to eat."
+    },
+    {
+      "id": 25,
+      "question": "What is the proper sequence for handling food safely?",
+      "options": [
+        "Purchase, Store, Prepare, Cook, Serve",
+        "Store, Prepare, Cook, Serve, Purchase",
+        "Prepare, Cook, Store, Purchase, Serve",
+        "Purchase, Prepare, Cook, Store, Serve"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The proper sequence is: Purchase, Store, Prepare, Cook, Serve, which follows the food flow through the preparation process."
+    },
+    {
+      "id": 26,
+      "question": "What is botulism?",
+      "options": [
+        "A foodborne illness caused by a virus",
+        "A foodborne illness caused by a parasite",
+        "A foodborne illness caused by a bacteria toxin",
+        "A chemical contamination of food"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Botulism is a rare but serious foodborne illness caused by toxins produced by Clostridium botulinum bacteria."
+    },
+    {
+      "id": 27,
+      "question": "How should you store raw meat in a refrigerator?",
+      "options": [
+        "On the top shelf",
+        "In the door compartment",
+        "On the bottom shelf",
+        "Next to ready-to-eat foods"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Raw meat should be stored on the bottom shelf of the refrigerator to prevent any drips from contaminating other foods."
+    },
+    {
+      "id": 28,
+      "question": "What is the main food safety concern with reheating rice?",
+      "options": [
+        "Loss of nutrients",
+        "Bacillus cereus spores",
+        "Texture changes",
+        "Vitamin degradation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bacillus cereus spores can survive cooking and produce toxins when rice is cooled slowly and stored improperly."
+    },
+    {
+      "id": 29,
+      "question": "Which food typically does NOT need refrigeration for safety?",
+      "options": [
+        "Mayonnaise",
+        "Honey",
+        "Opened tomato sauce",
+        "Fresh mushrooms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Honey has natural antimicrobial properties and a low moisture content, making refrigeration unnecessary for safety."
+    },
+    {
+      "id": 30,
+      "question": "What is the safe minimum internal temperature for cooking seafood?",
+      "options": [
+        "125°F (52°C)",
+        "135°F (57°C)",
+        "145°F (63°C)",
+        "155°F (68°C)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Seafood should be cooked to an internal temperature of 145°F (63°C) to ensure safety."
+    },
+    {
+      "id": 31,
+      "question": "Which of these is NOT a common food allergen that requires labeling?",
+      "options": [
+        "Milk",
+        "Soy",
+        "Strawberries",
+        "Tree nuts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Strawberries, though they can cause allergic reactions in some people, are not among the most common food allergens that require mandatory labeling in most countries."
+    },
+    {
+      "id": 32,
+      "question": "What is the safest way to cool leftover food before refrigerating?",
+      "options": [
+        "Leave it on the counter overnight",
+        "Put hot food directly in the refrigerator",
+        "Use shallow containers and an ice bath",
+        "Cover tightly with aluminum foil at room temperature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using shallow containers and an ice bath helps food cool quickly and evenly, minimizing time in the temperature danger zone."
+    },
+    {
+      "id": 33,
+      "question": "What is the primary purpose of pasteurization?",
+      "options": [
+        "To improve taste",
+        "To extend shelf life",
+        "To kill harmful bacteria",
+        "To increase nutritional value"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The primary purpose of pasteurization is to kill harmful bacteria that could cause foodborne illness."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following is NOT safe to eat past its expiration date?",
+      "options": [
+        "Dry pasta",
+        "Canned vegetables",
+        "Fresh shellfish",
+        "Hard cheese"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fresh shellfish should never be consumed past its expiration date due to high risk of bacterial growth and toxin production."
+    },
+    {
+      "id": 35,
+      "question": "What temperature should a freezer be set at for safe food storage?",
+      "options": [
+        "32°F (0°C)",
+        "15°F (-9°C)",
+        "0°F (-18°C)",
+        "-10°F (-23°C)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Freezers should be set at 0°F (-18°C) or below to maintain food safety and quality."
+    },
+    {
+      "id": 36,
+      "question": "Which of these meats requires the highest cooking temperature for safety?",
+      "options": [
+        "Whole cuts of beef",
+        "Ground turkey",
+        "Pork chops",
+        "Fish fillets"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ground turkey, like all ground poultry, should be cooked to 165°F (74°C), which is higher than the requirements for the other listed foods."
+    },
+    {
+      "id": 37,
+      "question": "What does HACCP stand for in food safety?",
+      "options": [
+        "Healthy And Clean Cooking Procedures",
+        "Hazard Analysis Critical Control Point",
+        "Heat Application Cooking Control Process",
+        "Harmful Agents Containment Control Plan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HACCP stands for Hazard Analysis Critical Control Point, a systematic approach to identifying and controlling food safety hazards."
+    },
+    {
+      "id": 38,
+      "question": "Which pathogen is most commonly associated with undercooked chicken?",
+      "options": [
+        "E. coli",
+        "Campylobacter",
+        "Norovirus",
+        "Listeria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Campylobacter is the most common bacterial cause of foodborne illness associated with undercooked chicken."
+    },
+    {
+      "id": 39,
+      "question": "How should you store fresh fruits and vegetables for maximum safety and quality?",
+      "options": [
+        "All produce should be refrigerated immediately",
+        "All produce should be stored at room temperature",
+        "Some produce items should be refrigerated, while others shouldn't",
+        "All produce should be frozen for longest shelf life"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Some produce items like tomatoes and bananas maintain quality at room temperature, while others like leafy greens require refrigeration."
+    },
+    {
+      "id": 40,
+      "question": "Which food safety practice is INCORRECT when using a microwave to defrost meat?",
+      "options": [
+        "Cook the meat immediately after defrosting",
+        "Use the defrost setting on the microwave",
+        "Partially cook the meat and finish defrosting later",
+        "Check for cold spots in the defrosted meat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Partially cooking meat and finishing later is unsafe as it can allow bacteria to multiply. Always cook immediately after defrosting."
+    },
+    {
+      "id": 41,
+      "question": "What is the main concern with consuming raw or undercooked eggs?",
+      "options": [
+        "E. coli infection",
+        "Salmonella infection",
+        "Listeria infection",
+        "Norovirus infection"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Salmonella infection is the main concern with consuming raw or undercooked eggs."
+    },
+    {
+      "id": 42,
+      "question": "How long can hot food be safely held in a steam table or warming device?",
+      "options": [
+        "2 hours",
+        "4 hours",
+        "6 hours",
+        "8 hours"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hot food can be safely held for service for up to 4 hours if kept at 135°F (57°C) or above."
+    },
+    {
+      "id": 43,
+      "question": "Which of these foods has the highest risk of causing listeriosis?",
+      "options": [
+        "Raw eggs",
+        "Deli meats",
+        "Raw vegetables",
+        "Cooked rice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deli meats and ready-to-eat foods have a higher risk of Listeria contamination, which can grow even at refrigeration temperatures."
+    },
+    {
+      "id": 44,
+      "question": "Which method of food preservation does NOT kill bacteria?",
+      "options": [
+        "Canning",
+        "Freezing",
+        "Pasteurization",
+        "Cooking"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Freezing only stops bacterial growth but doesn't kill existing bacteria; they become active again when food thaws."
+    },
+    {
+      "id": 45,
+      "question": "What is the recommended way to wash fruits and vegetables?",
+      "options": [
+        "Soak in diluted bleach solution",
+        "Rinse with hot water and soap",
+        "Rinse under cool running water and scrub if needed",
+        "Wash with antibacterial kitchen cleaner"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fruits and vegetables should be rinsed under cool running water and scrubbed with a clean brush if needed."
+    },
+    {
+      "id": 46,
+      "question": "Which of these foods is most likely to contain the parasite that causes trichinosis?",
+      "options": [
+        "Raw fish",
+        "Undercooked pork",
+        "Raw eggs",
+        "Unpasteurized milk"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Undercooked pork has traditionally been associated with trichinosis, caused by the Trichinella parasite."
+    },
+    {
+      "id": 47,
+      "question": "What is the correct order for washing dishes by hand?",
+      "options": [
+        "Rinse, wash, sanitize",
+        "Wash, rinse, sanitize",
+        "Sanitize, wash, rinse",
+        "Wash, sanitize, rinse"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct order is wash (with hot, soapy water), rinse (with clean water), then sanitize (with sanitizing solution)."
+    },
+    {
+      "id": 48,
+      "question": "Which food is MOST likely to cause an allergic reaction?",
+      "options": [
+        "Rice",
+        "Peanuts",
+        "Potatoes",
+        "Cucumbers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Peanuts are one of the most common food allergens and can cause severe allergic reactions in sensitive individuals."
+    },
+    {
+      "id": 49,
+      "question": "What is the recommended method for sanitizing food contact surfaces?",
+      "options": [
+        "Wipe with a dry cloth",
+        "Wash with soapy water",
+        "Spray with a mixture of water and vinegar",
+        "Use a chlorine bleach solution"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A properly diluted chlorine bleach solution (1 tablespoon unscented bleach in 1 gallon of water) is effective for sanitizing food contact surfaces."
+    },
+    {
+      "id": 50,
+      "question": "Which phrase best describes cross-contamination?",
+      "options": [
+        "Cooking foods at too low a temperature",
+        "Storing foods for too long in the refrigerator",
+        "Transferring harmful bacteria from one food or surface to another",
+        "Not washing produce before consumption"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cross-contamination occurs when harmful bacteria or other microorganisms are transferred from one food, surface, or person to another."
+    },
+    {
+      "id": 51,
+      "question": "What is the proper way to calibrate a food thermometer?",
+      "options": [
+        "Place in boiling water and adjust to 212°F (100°C)",
+        "Place in refrigerator and adjust to 40°F (4°C)",
+        "Place in ice water and adjust to 32°F (0°C)",
+        "Place in hot tap water and adjust to 120°F (49°C)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To calibrate a food thermometer, place it in ice water and adjust it to read 32°F (0°C)."
+    },
+    {
+      "id": 52,
+      "question": "Which of these is NOT a common cause of food contamination?",
+      "options": [
+        "Unwashed hands",
+        "Cross-contamination between raw and cooked foods",
+        "Cooking food thoroughly",
+        "Improper cooling of hot foods"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cooking food thoroughly is a method to eliminate contamination, not cause it. The other options are common causes of food contamination."
+    },
+    {
+      "id": 53,
+      "question": "What is the recommended temperature for hot water when washing hands for food safety?",
+      "options": [
+        "Cold water (below 60°F/15°C)",
+        "Cool water (60-70°F/15-21°C)",
+        "Warm water (90-110°F/32-43°C)",
+        "Hot water (above 120°F/49°C)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Warm water (90-110°F/32-43°C) is recommended for handwashing as it helps remove oils where bacteria can cling without scalding the skin."
+    },
+    {
+      "id": 54,
+      "question": "Which seafood carries the highest risk of containing mercury?",
+      "options": [
+        "Shrimp",
+        "Salmon",
+        "Shark",
+        "Tilapia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Larger, predatory fish like shark accumulate higher levels of mercury due to their position in the food chain."
+    },
+    {
+      "id": 55,
+      "question": "How should you safely defrost a large frozen turkey?",
+      "options": [
+        "On the counter at room temperature",
+        "In cold water, changing the water every 30 minutes",
+        "In the refrigerator, allowing 24 hours for each 4-5 pounds",
+        "In a microwave on the defrost setting"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Large turkeys should be defrosted in the refrigerator, allowing approximately 24 hours for each 4-5 pounds of turkey."
+    },
+    {
+      "id": 56,
+      "question": "What is the main food safety concern with canned foods that are dented, bulging, or leaking?",
+      "options": [
+        "Nutrient loss",
+        "Chemical leaching from the can",
+        "Potential botulism risk",
+        "Metallic taste"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dented, bulging, or leaking cans may indicate botulism-causing bacteria growth inside, making the food extremely dangerous to consume."
+    },
+    {
+      "id": 57,
+      "question": "What should you do if you suspect a foodborne illness?",
+      "options": [
+        "Induce vomiting immediately",
+        "Drink large amounts of water to dilute toxins",
+        "Contact a healthcare provider",
+        "Take antacids to neutralize stomach acids"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If you suspect foodborne illness, contact a healthcare provider, especially if symptoms are severe or persist."
+    },
+    {
+      "id": 58,
+      "question": "Which of these foods is considered a TCS (Time/Temperature Control for Safety) food?",
+      "options": [
+        "Bread",
+        "Crackers",
+        "Cooked vegetables",
+        "Dried pasta"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cooked vegetables are TCS foods requiring proper time and temperature control to prevent pathogen growth."
+    },
+    {
+      "id": 59,
+      "question": "Why should cutting boards be replaced when they become heavily worn or have deep cuts?",
+      "options": [
+        "They are more likely to dull knives",
+        "They become less effective for cutting",
+        "Bacteria can hide in grooves and be difficult to remove",
+        "They can transfer color to foods"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Heavily worn cutting boards with deep cuts and grooves can harbor bacteria that are difficult to remove during cleaning."
+    },
+    {
+      "id": 60,
+      "question": "What food safety practice should be followed when tasting food during preparation?",
+      "options": [
+        "Use the cooking spoon to taste and continue stirring",
+        "Use a clean spoon for each taste",
+        "Blow on hot food before tasting",
+        "Taste only at the beginning of cooking"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Always use a clean spoon for each taste to prevent contaminating the food with bacteria from your mouth."
+    },
+    {
+      "id": 61,
+      "question": "What is the primary concern with consuming raw sprouts?",
+      "options": [
+        "Pesticide residue",
+        "Nutritional deficiencies",
+        "Bacterial contamination during sprouting",
+        "Choking hazard"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Raw sprouts present a risk of bacterial contamination because pathogens can get inside the seeds and multiply during the warm, moist sprouting process."
+    },
+    {
+      "id": 62,
+      "question": "When should you wash your hands during food preparation?",
+      "options": [
+        "Only before beginning to cook",
+        "Only after handling raw meat",
+        "Only if visibly dirty",
+        "Before, during, and after food preparation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Hands should be washed before starting, after handling different foods (especially raw meat), after touching your face, hair, or other non-food items, and any time contamination might occur."
+    },
+    {
+      "id": 63,
+      "question": "What is the recommended internal temperature for reheating leftovers?",
+      "options": [
+        "135°F (57°C)",
+        "145°F (63°C)",
+        "155°F (68°C)",
+        "165°F (74°C)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Leftovers should be reheated to an internal temperature of 165°F (74°C) to ensure safety."
+    },
+    {
+      "id": 64,
+      "question": "Which of the following should NOT be done when marinating meat?",
+      "options": [
+        "Marinate in the refrigerator",
+        "Use a glass or food-grade plastic container",
+        "Reuse marinade that contained raw meat as a sauce",
+        "Discard leftover marinade that contained raw meat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Marinade that has contained raw meat should never be reused as a sauce unless it's boiled first to kill bacteria."
+    },
+    {
+      "id": 65,
+      "question": "Which method is most effective at killing bacteria on kitchen sponges?",
+      "options": [
+        "Soaking in vinegar solution",
+        "Rinsing with hot water",
+        "Microwaving wet for 1 minute",
+        "Washing with dish soap"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Microwaving a wet sponge for about 1 minute can kill most bacteria. The sponge must be wet to prevent fire."
+    },
+    {
+      "id": 66,
+      "question": "What is the best practice for storing opened canned food?",
+      "options": [
+        "Leave in the can and cover with plastic wrap",
+        "Transfer to a non-metal container with a lid",
+        "Leave in the can with the pull-tab resealed",
+        "It doesn't matter as long as it's refrigerated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Once opened, canned food should be transferred to a non-metal, food-grade container with a lid before refrigerating."
+    },
+    {
+      "id": 67,
+      "question": "Which food preparation practice can increase the risk of Staphylococcus aureus contamination?",
+      "options": [
+        "Washing hands before food preparation",
+        "Using a food thermometer",
+        "Preparing food while having a cold or skin infection",
+        "Keeping food refrigerated until serving"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Staphylococcus aureus is commonly found in the nose, throat, and on the skin. Preparing food while sick or with skin infections increases contamination risk."
+    },
+    {
+      "id": 68,
+      "question": "What is the safe minimum internal temperature for cooking casseroles containing meat or poultry?",
+      "options": [
+        "145°F (63°C)",
+        "155°F (68°C)",
+        "160°F (71°C)",
+        "165°F (74°C)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Casseroles containing meat or poultry should reach a minimum internal temperature of 165°F (74°C) to ensure all ingredients are safely cooked."
+    },
+    {
+      "id": 69,
+      "question": "How often should kitchen dishcloths and towels be washed?",
+      "options": [
+        "Once a week",
+        "Every few days",
+        "Daily or after each use for heavily soiled items",
+        "Once a month with bleach"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kitchen dishcloths and towels should be washed daily or after each use if heavily soiled, as they can quickly harbor bacteria."
+    },
+    {
+      "id": 70,
+      "question": "Which of these foods is considered shelf-stable and does NOT require refrigeration after opening?",
+      "options": [
+        "Maple syrup",
+        "Mustard",
+        "Soy sauce",
+        "Commercial mayonnaise"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Soy sauce is typically shelf-stable due to its high salt content, though refrigeration may extend quality."
+    },
+    {
+      "id": 71,
+      "question": "What is the purpose of the 'first in, first out' (FIFO) system in food storage?",
+      "options": [
+        "To organize food by type",
+        "To ensure older products are used before newer ones",
+        "To separate raw and cooked foods",
+        "To maximize storage space"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The FIFO system ensures that older products are used before newer ones, reducing waste and preventing consumption of expired foods."
+    },
+    {
+      "id": 72,
+      "question": "Which of these practices is most likely to lead to foodborne illness?",
+      "options": [
+        "Thawing meat in the refrigerator",
+        "Washing hands after handling raw chicken",
+        "Using the same cutting board for raw meat and vegetables",
+        "Cooking food to the minimum safe temperature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using the same cutting board for raw meat and vegetables without cleaning between uses can cause cross-contamination, leading to foodborne illness."
+    },
+    {
+      "id": 73,
+      "question": "What does the 'best by' date on food packaging indicate?",
+      "options": [
+        "The date after which the food becomes unsafe to eat",
+        "The date after which the product will be at its best quality",
+        "The date when the food was packaged",
+        "The date the food must be consumed by law"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'best by' date indicates when the product will be at its best quality, but it is not a safety date. Many foods are still safe to consume after this date."
+    },
+    {
+      "id": 74,
+      "question": "What is the safest way to transport hot food?",
+      "options": [
+        "In any covered container",
+        "In an insulated container that keeps food above 135°F (57°C)",
+        "Cool it first, then reheat at destination",
+        "In a paper bag to allow heat to escape"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hot food should be transported in insulated containers that maintain temperatures above 135°F (57°C) to keep it out of the danger zone."
+    },
+    {
+      "id": 75,
+      "question": "What is the main concern with eating raw flour products?",
+      "options": [
+        "Nutrient deficiency",
+        "Potential E. coli contamination",
+        "Poor digestion",
+        "Excessive calorie content"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Raw flour can be contaminated with harmful bacteria like E. coli, as it is not treated to kill pathogens before packaging."
+    },
+    {
+      "id": 76,
+      "question": "Which of the following is NOT one of the major food allergens requiring labeling by law in most countries?",
+      "options": [
+        "Shellfish",
+        "Wheat",
+        "Garlic",
+        "Soy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Garlic is not one of the major food allergens requiring labeling by law, though it can cause allergic reactions in some individuals."
+    },
+    {
+      "id": 77,
+      "question": "What is the correct way to check if eggs are fresh?",
+      "options": [
+        "Shake them near your ear",
+        "Place them in water (fresh eggs sink, old eggs float)",
+        "Check the expiration date only",
+        "Smell them while still in the shell"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Placing eggs in water helps determine freshness. Fresh eggs sink and lie horizontally, older eggs stand on end, and bad eggs float due to gas buildup inside."
+    },
+    {
+      "id": 78,
+      "question": "When is double-dipping (dipping food you've bitten into back into a communal dip) a food safety concern?",
+      "options": [
+        "Only at large gatherings",
+        "Only if you're sick",
+        "Always, as it transfers bacteria from your mouth to the dip",
+        "It's never a concern"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Double-dipping is always a food safety concern as it transfers bacteria from your mouth to the communal dip, which can then spread to other people."
+    },
+    {
+      "id": 79,
+      "question": "Which of the following food items does NOT freeze well?",
+      "options": [
+        "Beef steaks",
+        "Hard cheeses",
+        "Lettuce",
+        "Bread"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lettuce and most other raw, watery vegetables don't freeze well because their cell structures break down, resulting in a limp, soggy texture upon thawing."
+    },
+    {
+      "id": 80,
+      "question": "What is the main food safety concern with buffet-style service?",
+      "options": [
+        "Food being served in large portions",
+        "Exposure to air",
+        "Time food spends in the temperature danger zone",
+        "Too many food choices available"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main concern with buffets is the extended time food may spend in the temperature danger zone (40-140°F/4-60°C), allowing bacteria to multiply."
+    },
+    {
+      "id": 81,
+      "question": "Which practice is MOST effective at preventing norovirus transmission in food preparation?",
+      "options": [
+        "Cooking food thoroughly",
+        "Using hand sanitizer",
+        "Proper handwashing with soap and water",
+        "Wearing gloves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Proper handwashing with soap and water is most effective against norovirus, as alcohol-based sanitizers are not as effective against this virus."
+    },
+    {
+      "id": 82,
+      "question": "What is the recommended way to check the temperature of a thin food like a hamburger patty?",
+      "options": [
+        "Insert the thermometer from the side",
+        "Place the thermometer on top of the patty",
+        "Check the pan temperature instead",
+        "Press on the patty to check firmness"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For thin foods like hamburger patties, insert the thermometer from the side to ensure the sensor reaches the center of the food."
+    },
+    {
+      "id": 83,
+      "question": "What does the acronym FAT TOM represent in food safety?",
+      "options": [
+        "Federal Association of Technical Training for Optimal Management",
+        "Food, Acidity, Time, Temperature, Oxygen, Moisture",
+        "Five Approaches to Testing Temperature of Meat",
+        "Food Authorities Training Tools for Outbreak Management"
+      ],
+      "correctAnswer": 1,
+      "explanation": "FAT TOM represents the six conditions bacteria need to grow: Food, Acidity, Time, Temperature, Oxygen, and Moisture."
+    },
+    {
+      "id": 84,
+      "question": "Which food would be LEAST likely to support bacterial growth?",
+      "options": [
+        "Cooked chicken at room temperature",
+        "Beef jerky",
+        "Cooked rice left out overnight",
+        "Potato salad with mayonnaise"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beef jerky has low moisture content, making it less hospitable for bacterial growth compared to the other options."
+    },
+    {
+      "id": 85,
+      "question": "What is the proper way to store chemicals in a kitchen?",
+      "options": [
+        "Above food preparation areas for easy access",
+        "In a designated area away from food and food equipment",
+        "Under the sink with food utensils",
+        "In unmarked bottles to save space"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chemicals should be stored in a designated area completely separate from food and food equipment to prevent contamination."
+    },
+    {
+      "id": 86,
+      "question": "Which of these is NOT a sign of foodborne illness?",
+      "options": [
+        "Nausea and vomiting",
+        "Diarrhea",
+        "High fever",
+        "Increased energy"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Increased energy is not a symptom of foodborne illness. Common symptoms include nausea, vomiting, diarrhea, abdominal cramps, and fever."
+    },
+    {
+      "id": 87,
+      "question": "What is the safe minimum internal temperature for cooking stuffing inside a turkey?",
+      "options": [
+        "145°F (63°C)",
+        "155°F (68°C)",
+        "165°F (74°C)",
+        "180°F (82°C)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Stuffing inside a turkey should reach 165°F (74°C) to ensure any bacteria that may have transferred from the raw turkey cavity are killed."
+    },
+    {
+      "id": 88,
+      "question": "When should you NOT rinse raw meat before cooking?",
+      "options": [
+        "When it has visible dirt",
+        "When it has been frozen",
+        "Always - meat should never be rinsed",
+        "When it has a strong odor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Raw meat, poultry, and seafood should not be rinsed before cooking, as this can spread bacteria to sinks, countertops, and other surfaces."
+    },
+    {
+      "id": 89,
+      "question": "What is the greatest risk factor for developing foodborne illness?",
+      "options": [
+        "Poor personal hygiene",
+        "Improper cooking temperatures",
+        "Cross-contamination",
+        "Time-temperature abuse"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Time-temperature abuse (allowing food to remain in the danger zone for too long) is the most common factor contributing to foodborne illness."
+    },
+    {
+      "id": 90,
+      "question": "Which of these foods is most likely to contain the parasite Anisakis?",
+      "options": [
+        "Raw chicken",
+        "Raw fish",
+        "Raw eggs",
+        "Raw beef"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anisakis is a parasite found in raw fish and seafood, which is why proper freezing or cooking is recommended before consumption."
+    },
+    {
+      "id": 91,
+      "question": "What is the recommended practice for washing reusable grocery bags?",
+      "options": [
+        "Never wash them, just replace when dirty",
+        "Sanitize with bleach after each use",
+        "Wash cloth bags regularly, especially those used for meat",
+        "Only wash if visibly contaminated"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reusable cloth grocery bags should be washed regularly, especially those used to carry raw meat, poultry, or seafood, to prevent bacterial growth and cross-contamination."
+    },
+    {
+      "id": 92,
+      "question": "Why should cutting boards be allowed to dry completely after washing?",
+      "options": [
+        "To prevent warping",
+        "To prevent bacterial growth",
+        "To remove soap residue",
+        "To maintain sharpness of knives"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Allowing cutting boards to dry completely after washing helps prevent bacterial growth, as bacteria thrive in moist environments."
+    },
+    {
+      "id": 93,
+      "question": "What is the food safety risk in consuming raw milk?",
+      "options": [
+        "Less nutritional value",
+        "Poor taste",
+        "Potential pathogens like Salmonella and E. coli",
+        "Higher fat content"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Raw milk can contain harmful bacteria like Salmonella, E. coli, and Listeria, which are normally killed during pasteurization."
+    },
+    {
+      "id": 94,
+      "question": "What is the safe internal temperature for cooking whole muscle meats like beef steaks or pork chops?",
+      "options": [
+        "135°F (57°C)",
+        "145°F (63°C) with a 3-minute rest",
+        "155°F (68°C)",
+        "165°F (74°C)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Whole muscle meats like beef steaks and pork chops should be cooked to 145°F (63°C) with a 3-minute rest time to ensure safety."
+    },
+    {
+      "id": 95,
+      "question": "What does 'shelf-stable' mean in food safety terms?",
+      "options": [
+        "Food that can be safely left at room temperature",
+        "Food that must be kept on a pantry shelf",
+        "Food with an extended freezer life",
+        "Food that doesn't require packaging"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Shelf-stable foods can be safely stored at room temperature due to processing methods that prevent microbial growth or spoilage."
+    },
+    {
+      "id": 96,
+      "question": "Which factor contributes MOST to the growth of mold on food?",
+      "options": [
+        "Oxygen",
+        "Refrigeration",
+        "Moisture",
+        "High salt content"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Moisture is the most significant factor contributing to mold growth on foods. Keeping foods dry helps prevent mold."
+    },
+    {
+      "id": 97,
+      "question": "What is the safest practice when serving food outdoors in warm weather?",
+      "options": [
+        "Keep hot foods wrapped in aluminum foil",
+        "Keep all food in direct sunlight to kill bacteria",
+        "Use coolers with ice to keep cold foods below 40°F (4°C)",
+        "Prepare all food a day ahead to allow flavors to develop"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When serving food outdoors, cold foods should be kept in coolers with ice to maintain temperatures below 40°F (4°C)."
+    },
+    {
+      "id": 98,
+      "question": "Which of these would be considered a food allergy and not a food intolerance?",
+      "options": [
+        "Lactose intolerance from drinking milk",
+        "Headache after consuming MSG",
+        "Hives after eating peanuts",
+        "Upset stomach after eating spicy food"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hives after eating peanuts is an immune system response typical of a true food allergy, while the other options describe food intolerances."
+    },
+    {
+      "id": 99,
+      "question": "What does FIFO stand for in food storage practice?",
+      "options": [
+        "First In, First Out",
+        "Food Inspection For Outlets",
+        "Freezing Items For Optimization",
+        "Fresh Ingredients For Orders"
+      ],
+      "correctAnswer": 0,
+      "explanation": "FIFO stands for First In, First Out, meaning older products should be used before newer ones to ensure proper rotation."
+    },
+    {
+      "id": 100,
+      "question": "What is the primary purpose of the HACCP (Hazard Analysis Critical Control Point) system?",
+      "options": [
+        "To increase food production efficiency",
+        "To reduce food costs",
+        "To prevent foodborne illness through systematic identification and control of hazards",
+        "To improve food flavor and quality"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The primary purpose of HACCP is to prevent foodborne illness by systematically identifying and controlling potential hazards in the food production process."
+    }
+  ]
+}

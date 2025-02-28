@@ -1,0 +1,16 @@
+{
+    "apple": {
+    "calories": 95,
+    "protein": 0.5,
+    "carbs": 25,
+    "fats": 0.3,
+    "allergens": []
+},
+    "pizza": {
+    "calories": 285,
+    "protein": 12.3,
+    "carbs": 33.4,
+    "fats": 10.4,
+    "allergens": ["gluten", "dairy"]
+}
+}

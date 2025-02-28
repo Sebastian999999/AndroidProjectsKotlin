@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".InAppPremiumBannerFragment2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/clbackgroundfragmentinapppremiumbanner2"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/mivbackgroundinappbanner2"
+            android:background="@mipmap/background_premium_banner2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/mtvgrantAccess"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="10dp"
+            android:textSize="23sp"
+            android:textFontWeight="700"
+            android:lineHeight="28dp"
+            android:text="Grant Access
+to Play Your Media Files"
+            android:textAllCaps="false"
+            android:gravity="center_vertical|center"
+            android:textAlignment="gravity"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@id/mtvdescription"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/mtvdescription"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:lines="2"
+            android:layout_marginBottom="10dp"
+            android:lineHeight="20dp"
+            android:textSize="12sp"
+            android:text="To play your media files, we need to 'Allow access
+to manage all files' permission on your device."
+            android:gravity="center"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@id/mbfileaccess"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="324dp"
+            android:layout_height="60dp"
+            android:id="@+id/mbfileaccess"
+            android:drawableRight="@drawable/forwardicon"
+            android:gravity="center_vertical"
+            android:text="Allow files access"
+            android:textSize="18sp"
+            android:textFontWeight="600"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:backgroundTint="@color/color_primary_blue"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

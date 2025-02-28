@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "390380129666",
+    "project_id": "foodsafetyapp-2fe64",
+    "storage_bucket": "foodsafetyapp-2fe64.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390380129666:android:977d5e013994f7dbd4939b",
+        "android_client_info": {
+          "package_name": "com.example.foodsafetyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzjBwhKMS1PRHpFkWq5HjI8pqlR5zC7_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

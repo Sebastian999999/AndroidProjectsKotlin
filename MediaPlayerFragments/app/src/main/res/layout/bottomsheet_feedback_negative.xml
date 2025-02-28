@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:backgroundTint="@color/black_secondary"
+    app:cardCornerRadius="29.44dp"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/clnegativefeedbacksheet"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mivdelightfulemoji"
+            android:layout_marginStart="15dp"
+            android:layout_marginVertical="50dp"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/delightfulemoji"
+
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mtvratingsubmissionthanks"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/thanks_for_submitting_your_rating"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="26sp"
+            android:textFontWeight="700"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/mtvsecondarytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mtvratingsubmissionthanks"
+            android:text="@string/we_apologize_for_your_unsatisfactory_experience_could_you_please_share_how_we_might_enhance_it"
+            android:lineHeight="28dp"
+            android:layout_marginHorizontal="15dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_primary_gray"
+            android:textSize="16sp"
+            android:textFontWeight="700"
+            />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:tooltipText="Write your feedback"
+            android:id="@+id/metfeedbacknegative"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox.Dense"
+            android:padding="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mtvsecondarytext"
+            android:hint="@string/write_your_feedback_here"
+            android:textColorHint="@color/color_tertiary_gray"
+            android:textColor="@color/white"
+            android:gravity="top"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_text_simple_bg"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/mbsubmitfeedback"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_margin="15dp"
+            app:layout_constraintTop_toBottomOf="@id/metfeedbacknegative"
+            android:text="Submit Feedback"
+            android:textSize="26.5sp"
+            android:textColor="@color/color_primary_dark_gray"
+            android:backgroundTint="@color/color_black_tertiary"
+            android:enabled="false"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/mbclose"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="15dp"
+            app:layout_constraintTop_toBottomOf="@id/mtvsecondarytext"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="Close"
+            android:textSize="26.5sp"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:backgroundTint="@color/color_secondary_blue"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

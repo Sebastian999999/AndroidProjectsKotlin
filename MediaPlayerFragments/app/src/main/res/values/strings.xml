@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MediaPlayerFragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hallo">hallo</string>
+    <string name="supports_all_formats">Supports All Formats</string>
+    <string name="skip">Skip</string>
+    <string name="background_audio_player">Background Audio Player</string>
+    <string name="lorem_ipsum_dolar_sit_amit">Lorem Ipsum Dolar sit amit</string>
+    <string name="audio_player">Audio Player</string>
+    <string name="whatsApp_status_saver">WhatsApp Status Saver</string>
+    <string name="create_documents_from_scanned_pages">Create documents from scanned pages</string>
+    <string name="multiple_themes_wallpaper">Multiple Themes  Wallpaper</string>
+    <string name="grant_access_to_play_your_media_files">Grant Access to Play Your Media Files</string>
+    <string name="to_play_your_media_files_we_need_to_allow_access_to_manage_all_files_on_your_device">To play your media files, we need to Allow access to manage all files permission on your device.</string>
+    <string name="next">Next</string>
+    <string name="ultra_hd_video_player">ULTRA HD VIDEO PLAYER</string>
+    <string name="write_your_feedback_here">Write your feedback here...</string>
+    <string name="we_apologize_for_your_unsatisfactory_experience_could_you_please_share_how_we_might_enhance_it">We apologize for your unsatisfactory experience. Could you please share how we might enhance it?</string>
+    <string name="thanks_for_submitting_your_rating">Thanks for submitting your rating</string>
+</resources>

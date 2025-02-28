@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/foodAnalysisFragmentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main Content Area wrapped in a ScrollView for vertical scrolling -->
+    <ScrollView
+        android:id="@+id/scrollViewContent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Container for interactive components with padding -->
+        <LinearLayout
+            android:id="@+id/linearLayoutContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgscanned"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <!-- Camera Integration: Button to activate the smartphone camera -->
+            <Button
+                android:id="@+id/btnScanFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scan Food" />
+
+            <!-- Manual Entry Option: Search bar for food details -->
+            <EditText
+                android:id="@+id/etManualEntry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter food details manually"
+                android:inputType="text"
+                android:layout_marginTop="16dp" />
+
+            <!-- Real-Time Analysis: Loading animation (ProgressBar) -->
+            <ProgressBar
+                android:id="@+id/progressBarAnalysis"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_marginTop="24dp" />
+
+            <!-- Placeholder for AI Analysis Results -->
+            <LinearLayout
+                android:id="@+id/llAnalysisResults"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="24dp"
+                android:padding="16dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/tvFoodName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/food_name"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvNutritionalValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nutritional_value_calories_sugar_fats_etc" />
+
+                <TextView
+                    android:id="@+id/tvPotentialAllergens"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/potential_allergens_e_g_gluten_nuts" />
+
+                <TextView
+                    android:id="@+id/tvFreshness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/food_freshness" />
+
+                <TextView
+                    android:id="@+id/tvSpoilageAlert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/spoilage_alert" />
+
+                <TextView
+                    android:id="@+id/tvRecommendation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recommendations" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/result"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

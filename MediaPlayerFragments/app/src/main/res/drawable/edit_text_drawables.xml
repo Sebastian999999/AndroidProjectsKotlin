@@ -1,0 +1,33 @@
+<!-- res/drawable/edittext_corner_drawable.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="2dp" android:color="#FF0000" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <!-- Top Left icon -->
+    <item
+        android:gravity="top|start"
+        android:drawable="@drawable/baseline_close_24"
+        >
+    </item>
+
+
+    <!-- Top Right icon -->
+    <item
+        android:gravity="top|end"
+        android:drawable="@mipmap/ic_launcher"
+        />
+
+
+    <!-- Bottom Right icon -->
+    <item
+        android:gravity="bottom|end"
+        android:drawable="@drawable/icons8_flip_vertical_30"
+        />
+
+</layer-list>

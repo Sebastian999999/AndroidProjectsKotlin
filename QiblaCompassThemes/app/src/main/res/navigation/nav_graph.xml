@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/qiblaCompassFragment">
+
+    <fragment
+        android:id="@+id/qiblaThemeChooseFragment"
+        android:name="com.example.qiblacompassthemes.QiblaThemeChooserFragment"
+        android:label="Choose Theme"
+        >
+        <!-- Action to navigate from QiblaThemeChooseFragment to QiblaCompasFragment -->
+        <action
+            android:id="@+id/action_themeChooseFragment_to_qiblaCompasFragment"
+            app:destination="@id/qiblaCompassFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/qiblaCompassFragment"
+        android:name="com.example.qiblacompassthemes.QiblaCompassFragment">
+
+        <action
+            android:id="@+id/action_qiblaCompasFragment_to_themeChooseFragment"
+            app:destination="@id/qiblaThemeChooseFragment"
+            />
+    </fragment>
+</navigation>

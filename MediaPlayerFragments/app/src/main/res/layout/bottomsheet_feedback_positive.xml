@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/white"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/clpositivefeedbacksheet"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mivplaystorelogo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/mivavatar"
+                app:layout_constraintBottom_toBottomOf="@id/mivavatar"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/google_play"
+
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mivavatar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/avatar"
+                android:layout_marginTop="20dp"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtvusername"
+                app:layout_constraintEnd_toStartOf="@id/mivavatar"
+                app:layout_constraintTop_toTopOf="@id/mivavatar"
+                app:layout_constraintBottom_toBottomOf="@id/mivavatar"
+                android:text="John Snow"
+                android:textSize="23.16sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="10dp"
+                />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/color_primary_blue"
+                app:layout_constraintTop_toBottomOf="@id/mivavatar"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mivmediaplayerlogo"
+                app:layout_constraintStart_toStartOf="@id/mivplaystorelogo"
+                app:layout_constraintTop_toBottomOf="@id/view1"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mediaplayer_logo"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtvmedia"
+                app:layout_constraintStart_toEndOf="@id/mivmediaplayerlogo"
+
+                app:layout_constraintTop_toTopOf="@id/mivmediaplayerlogo"
+                android:layout_marginStart="10dp"
+                android:textSize="23.16sp"
+                android:textStyle="bold"
+                android:text="Media Player App"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/mtvmediadescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:lineHeight="25.73dp"
+                android:text="Your review is public and includes your Google profile name and photo"
+                android:textColor="@color/color_gray_secondary_2"
+                android:textFontWeight="400"
+                android:textSize="18sp"
+                android:lines="2"
+                app:layout_constraintStart_toEndOf="@id/mivmediaplayerlogo"
+                app:layout_constraintTop_toBottomOf="@id/mtvmedia" />
+
+            
+            <androidx.appcompat.widget.AppCompatRatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/mtvmediadescription"
+                android:numStars="5"
+                android:id="@+id/ratingbar2"
+                android:layout_marginTop="50dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mbnotnow"
+                android:layout_marginTop="30dp"
+                app:strokeColor="@color/color_primary_gray"
+                app:strokeWidth="2dp"
+                app:backgroundTint="@android:color/transparent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ratingbar2"
+                app:layout_constraintEnd_toStartOf="@id/mbsubmit"
+                android:text="Not Now"
+
+                android:layout_marginBottom="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/color_primary_green"
+                />
+                <com.google.android.material.button.MaterialButton
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mbcancel"
+                android:layout_marginTop="30dp"
+                app:strokeColor="@color/color_primary_gray"
+                app:strokeWidth="2dp"
+                app:backgroundTint="@android:color/transparent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ratingbar2"
+                app:layout_constraintEnd_toStartOf="@id/mbsubmit"
+                android:text="Not Now"
+
+                android:layout_marginBottom="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/color_primary_green"
+                    android:visibility="gone"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mbsubmit"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintTop_toBottomOf="@id/ratingbar2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/mbnotnow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:text="Submit"
+                android:enabled="false"
+                />
+            
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtilpositivefeedback"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidth="2dp"
+                android:layout_marginHorizontal="10dp"
+                app:hintAnimationEnabled="true"
+                app:cursorColor="@color/color_primary_green"
+                android:textColorHint="@color/color_primary_gray"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/metpositivefeedback2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="(Optional) Tell others what you think"
+                    />
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/clmetpositivefeedback"
+                    >
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Public Review"
+                        android:id="@+id/mtvpublicandoptional"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginStart="20dp"
+                        />
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mtvcharactercount"
+                        android:text="0/500"
+                        android:layout_marginEnd="20dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/homeFragmentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Daily Insights Header -->
+    <TextView
+        android:id="@+id/tvDailyInsightsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Insights"
+        android:textSize="20sp"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Daily Insights Summary Section -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardDailyInsights"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toBottomOf="@id/tvDailyInsightsHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvRecentScans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recent_scans_5_scans_today" />
+
+            <TextView
+                android:id="@+id/tvAlerts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alerts_2_alerts_detected"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tvSafeFoodTips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/safe_food_tips_store_dairy_below_5_c"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Quick Access Button: Analyze Food -->
+    <Button
+        android:id="@+id/btnAnalyzeFood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/analysis"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/cardDailyInsights"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Quick Access Button: Check Alerts -->
+    <Button
+        android:id="@+id/btnCheckAlerts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/alerts"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/btnAnalyzeFood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Quick Access Button: Recommendations -->
+    <Button
+        android:id="@+id/btnRecommendations"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/recommendations"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/btnCheckAlerts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
